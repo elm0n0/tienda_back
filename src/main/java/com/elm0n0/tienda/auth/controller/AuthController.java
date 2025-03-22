@@ -26,11 +26,12 @@ public class AuthController {
 	private static final String POST_LOGIN = "/login";
 	private static final String POST_REFRESH = "/refresh-token";
 	private static final String POST_LOGOUT = "/logout";
+	/**
 	private static final String GET_VALIDATE_TOKEN = "/validate-token";
 	private static final String PUT_CHANGE_PASSWORD = "/change-password";
 	private static final String POST_FORGOT_PASSWORD = "/forgot-password";
 	private static final String POST_RESET_PASSWORD = "/reset-password";
-	
+	*/
 	private final AuthService usuarioService;
 	/**
 	POST /auth/logout - Cerrar sesión (invalidar tokens).
