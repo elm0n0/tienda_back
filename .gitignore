@@ -1,0 +1,72 @@
+# 📂 Archivos generados por Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# 🔧 Archivos generados por el compilador de Java (compilados, logs, etc.)
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.class
+*.iml
+
+# 🧰 Archivos temporales de IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+# 🔧 Archivos de configuración de proyecto de IntelliJ IDEA
+.idea/
+
+# ⚙️ Archivos de configuración de Eclipse y Spring Tool Suite (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# 🔲 Archivos de configuración de NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# 💻 Archivos de configuración de VS Code
+.vscode/
+
+# 📦 Archivos y directorios de dependencias generados automáticamente
+/.mvn
+/.gradle
+
+# 🔐 Ignorar archivos sensibles de configuración (como las credenciales de base de datos)
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+# 🔥 Archivos temporales de compilación de Gradle (si lo usas)
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# 💾 Archivos de configuración local, como IDEs y sistemas operativos
+.DS_Store
+Thumbs.db
+
+# 🛠️ Archivos de compilación y recursos generados
+*.war
+*.jar
+
+# 🐳 Archivos y directorios específicos de Docker
+.docker/
+
+# 🔍 Archivos generados por pruebas de cobertura
+*.exec
+*.gcov
