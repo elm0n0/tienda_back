@@ -1,0 +1,17 @@
+Copyright © [Juan José Pérez Plaza], 2025. Todos los derechos reservados.
+
+Este software está sujeto a la **licencia propietaria** del autor. No se permite su uso, distribución, modificación ni adaptación sin el consentimiento expreso y por escrito del autor.
+
+## Condiciones
+
+1. **Uso**: El código fuente no puede ser utilizado para fines comerciales sin la autorización expresa del propietario.
+
+2. **Distribución**: No se permite la redistribución del código fuente ni de productos derivados sin el consentimiento expreso del propietario.
+
+3. **Modificaciones**: No se permite modificar, adaptar ni crear trabajos derivados basados en este código sin el consentimiento expreso del propietario.
+
+4. **Contacto**: Si deseas obtener una licencia para usar, distribuir o modificar este código, por favor, contacta al propietario a través de [correo electrónico o información de contacto].
+
+5. **Garantías**: Este código se proporciona "tal cual", sin garantías de ningún tipo, ya sean expresas o implícitas, incluyendo, pero no limitándose a, garantías de comerciabilidad o idoneidad para un propósito particular.
+
+6. **Derechos Reservados**: Todos los derechos sobre este software son propiedad exclusiva del autor. No se concede ningún derecho explícito sobre el uso del software, excepto los que se estipulen en un acuerdo por separado.
