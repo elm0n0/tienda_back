@@ -79,7 +79,7 @@ jwt.expiration.time=<tiempo-en-ms>  # Expiración del token en milisegundos
 jwt.refresh.token.expiration.time=<tiempo-en-ms>  # Expiración del token de refresco en milisegundos
 ```
 Por ejemplo, si tu base de datos se llama tienda, y tu usuario es juanjo, la URL de conexión sería algo como:
-spring.data.mongodb.uri=mongodb+srv://juanjo:miContraseña123%40tiendaonline.svzd6.mongodb.net/tienda?retryWrites=true&w=majority&appName=tienda
+spring.data.mongodb.uri=mongodb+srv://juanjo:miContraseña123@tiendaonline.svzd6.mongodb.net/tienda?retryWrites=true&w=majority&appName=tienda
    
 ---
 
