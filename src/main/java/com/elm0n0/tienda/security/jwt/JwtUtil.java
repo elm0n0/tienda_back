@@ -19,7 +19,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
-import com.elm0n0.tienda.auth.enums.AuthRoles;
+import com.elm0n0.tienda.api.auth.enums.AuthRoles;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

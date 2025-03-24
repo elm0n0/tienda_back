@@ -9,9 +9,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.elm0n0.tienda.auth.dao.AuthDao;
-import com.elm0n0.tienda.auth.dao.DeviceDao;
-import com.elm0n0.tienda.auth.repository.AuthRepositoryMongo;
+import com.elm0n0.tienda.api.auth.dao.AuthDao;
+import com.elm0n0.tienda.api.auth.dao.DeviceDao;
+import com.elm0n0.tienda.api.auth.repository.AuthRepository;
 import com.elm0n0.tienda.security.jwt.JwtUtil;
 
 import jakarta.servlet.FilterChain;
@@ -25,7 +25,7 @@ import lombok.RequiredArgsConstructor;
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     private final JwtUtil jwtUtil;
-    private final AuthRepositoryMongo authRepositoryMongo;
+    private final AuthRepository authRepositoryMongo;
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)

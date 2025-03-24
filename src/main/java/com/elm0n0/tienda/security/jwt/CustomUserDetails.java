@@ -5,7 +5,7 @@ import java.util.Set;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 
-import com.elm0n0.tienda.auth.enums.AuthRoles;
+import com.elm0n0.tienda.api.auth.enums.AuthRoles;
 
 import lombok.Getter;
 import lombok.Setter;
